@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}   
+
+html {
+    scroll-behavior: smooth;
+}    
+::-webkit-scrollbar {
+    width: 4px;
+}    
+::-webkit-scrollbar-track {
+    background-color: #2F3440;
+}    
+::-webkit-scrollbar-thumb {
+    background-color: #d7ae68;
+}    
+* {
+    box-sizing: border-box;
+}
+.container {
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
+}    
+@media(min-width: 1280px) {
+    .container {
+        padding: 0.5rem 10rem;
+    }    
+}    
