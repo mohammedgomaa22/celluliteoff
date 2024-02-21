@@ -23,7 +23,7 @@ function sendMail() {
 
 // -------------------------------------
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzUe5gL7onvQVo7gIEQGv3TCQ6eHlgAPZLzQ00EUxs7u5KXBdW26ffrqh5t2PhoS-o4/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxhE6ZmKnl6MSv7lApnfPcgofE2Mc4551DlObuUPeKeM1bAlN8P2YJur9qD5MazOw/exec'
 
 const form = document.forms['contact-form']
 
